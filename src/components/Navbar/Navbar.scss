@@ -1,0 +1,93 @@
+.navigation{
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+
+    a{
+        font-size: 1.5em;
+        text-decoration: none;
+        font-family: 'Indie Flower', cursive;
+        padding: 0 12px;
+        font-weight: 900;
+
+        &:hover{
+            color: #71959A;
+        }
+    }
+
+    &--scroll{
+        background-color: #178578!important;
+        box-shadow: 0 1px 0 rgba(0,0,0,.08);
+        transition: all .6s ease!important;
+
+        a{
+            color: #F0FBFC;
+
+            &:hover{
+                color: #80CBC4;
+            }
+        }
+    }
+
+    &--top{
+        background-color: transparent!important;
+        transition: all .6s ease-in-out!important;
+
+        a{
+            color: #DBF5F8;
+        }
+    }
+
+    &--logo{
+        &:hover{
+            color: #DBF5F8!important;
+        }
+    }
+}
+.logo{
+    font-size: 1.3em;
+    
+    span{
+        font-size: 2em;
+        margin-right: 10px;
+    }
+}
+
+.disabled-item{
+    position: relative!important;
+    height: 30px;
+    
+    div{
+        width: 100%;
+        background-color: #DBF5F8;
+        position: absolute;
+        height: 2px;
+        bottom: 0;
+    }
+}
+
+.mobileMenu{
+    z-index: 100;
+}
+
+.MuiListItem-gutters{
+    padding: 0!important;
+    min-height: max-content!important;
+}
+
+.hiddenItems {
+    color: #DBF5F8;
+    text-decoration: none;
+    width: 100%;
+    padding: 10px 16px;
+    font-size: 1.5em px!important;
+    font-family: 'Indie Flower', cursive;
+}
+
+.MuiList-root{
+    background-color: #005661;
+}
+
+.hideHerder {
+    margin-top: -80px;
+}

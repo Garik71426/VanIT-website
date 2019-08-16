@@ -1,0 +1,23 @@
+.sectionTitle {
+    text-align: center;
+    padding: 1em 0 2.5em 0;
+
+    h1{
+        font-size: 5em;
+        font-family: 'Indie Flower', cursive;
+        margin-bottom: 0; 
+    }
+
+    div {
+        height: 2px;
+        width: 50%;
+        background-color: #80CBC4;
+        margin: 0 auto;
+    }    
+
+    p{
+        font-size: 1.3em;
+        line-height: 30px;
+        font-family: 'Playfair Display', serif;
+    }
+}

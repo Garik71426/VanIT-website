@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Dancing+Script|Indie+Flower&display=swap');
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  color: #DBF5F8!important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+*{
+  scroll-behavior: smooth;
+}

@@ -1,0 +1,50 @@
+.home {
+    position: relative;
+    min-height: 100vh;
+    text-align: center;
+    background: url(/images/home/background.png) no-repeat center center fixed;
+    background-size: cover;
+
+    h1{
+        font-size: 4.5em;
+        font-family: 'Dancing Script', cursive;
+        margin-bottom: .5em;
+    }
+
+    .sectionTitle{
+        padding: 7em 0 2em;
+    }
+
+    &--button {
+        font-family: 'Dancing Script', cursive;
+        font-weight: 900;
+        text-decoration: none;
+        width: 200px;
+        margin: 0 auto;
+        display: block;
+        font-size: 2em;
+        padding: 0 25px;
+        color: #476569;
+        border: 2px solid #DBF5F8;
+        border-radius: 999px;
+        background: #DBF5F8;
+
+        &:hover {
+            cursor: pointer;
+            background: transparent;
+            color: #DBF5F8;
+        }
+    }
+}
+
+@media screen and(max-width: 765px) {
+    .home {
+        h1 {
+            font-size: 2.5em;
+        }
+
+        p {
+            font-size: 1.3em;
+        }
+    }
+}
