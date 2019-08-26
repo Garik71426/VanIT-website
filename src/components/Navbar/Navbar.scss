@@ -39,6 +39,12 @@
     }
 
     &--logo{
+
+        outline: 0;
+        h1{
+            margin: 0;
+        }
+
         &:hover{
             color: #DBF5F8!important;
         }
@@ -49,7 +55,6 @@
     
     span{
         font-size: 2em;
-        margin-right: 10px;
     }
 }
 
@@ -89,5 +94,5 @@
 }
 
 .hideHerder {
-    margin-top: -80px;
+    margin-top: -100px;
 }

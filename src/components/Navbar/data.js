@@ -4,12 +4,12 @@ const data = [
         title: 'Home'
     },
     {
-        id: 'portfolio',
-        title: 'Portfolio'
-    },
-    {
         id: 'services',
         title: 'Services'
+    },
+    {
+        id: 'portfolio',
+        title: 'Portfolio'
     },
     {
         id: 'contactUs',

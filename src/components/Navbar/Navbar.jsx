@@ -91,7 +91,7 @@ export default function PrimarySearchAppBar () {
             <AppBar position="static" className = {`navigation--${scrollClass ? 'scroll' : 'top'} ${scrollDawn ? 'hideHerder' : ''}`}>
                 <Toolbar>
                     <a href="#home" className='navigation--logo' tabIndex = {1}>
-                        <span className = 'logo'><span >V</span>anIT</span>
+                        <h1 className = 'logo'><span >V</span>anIT</h1>
                     </a>
                     <div className={classes.grow} />
                     <div className={classes.sectionDesktop}>

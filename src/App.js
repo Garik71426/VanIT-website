@@ -10,10 +10,10 @@ class App extends Component {
         return (
             <>
               <Home/>
-              <Portfolio />
               <Services />
+              <Portfolio />
               <Footer />
-            </>
+          </>
         );
     }
 }

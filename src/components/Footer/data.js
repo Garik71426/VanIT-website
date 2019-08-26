@@ -1,8 +1,8 @@
 const data = {
-    address: 'Vanadzor, Shinararneri 12',
-    email: 'vanitinc@gmail.com',
-    phone: '+374 77 999 999',
-    facebook: 'https://www.facebook.com/',
+    address: '12 Shinararneri str, Vanadzor, Armenia ',
+    email: 'grig.davit@gmail.com',
+    phone: '+374 77 78 90 39',
+    facebook: 'https://facebook.com/',
     twitter: 'https://twitter.com/',
     github: 'https://github.com/',
     copyright: 'VanIT LLC.  ©  '

@@ -1,34 +1,32 @@
 const images = [
     {
-        src: '/images/portfolio/web/lvjob-web-2.png',
+        srcMin: '/images/portfolio/web/min/lvjob-web-2-min.png',
+        srcMax: '/images/portfolio/web/lvjob-web-2-min.png',
         alt: 'portfolio4',
     },
     {
-        src: '/images/portfolio/web/chapi2.png',
+        srcMin: '/images/portfolio/web/min/chapi2-min.png',
+        srcMax: '/images/portfolio/web/chapi2-min.png',
         alt: 'chapi2',
     },
     {
-        src: '/images/portfolio/web/lvjob-web-1.png',
+        srcMin: '/images/portfolio/web/min/lvjob-web-1-min.png',
+        srcMax: '/images/portfolio/web/lvjob-web-1-min.png',
         alt: 'portfolio3',
     },
     {
-        src: '/images/portfolio/web/burrito-web-1.png',
+        srcMin: '/images/portfolio/web/min/burrito-web-1-min.png',
+        srcMax: '/images/portfolio/web/burrito-web-1-min.png',
         alt: 'burrito-web-1',
     },
     {
-        src: '/images/portfolio/mobile/botsmart-landing.png',
-        alt: 'botsmart-landing',
-    },
-    {
-        src: '/images/portfolio/mobile/botsmart-mobile.png',
-        alt: 'botsmart-mobile',
-    },
-    {
-        src: '/images/portfolio/mobile/hotel-bot-mobile.png',
+        srcMin: '/images/portfolio/mobile/min/hotel-bot-mobile-min.png',
+        srcMax: '/images/portfolio/mobile/hotel-bot-mobile-min.png',
         alt: 'hotel-bot-mobile',
     },
     {
-        src: '/images/portfolio/mobile/lvjob-mobile.png',
+        srcMin: '/images/portfolio/mobile/min/lvjob-mobile-min.png',
+        srcMax: '/images/portfolio/mobile/lvjob-mobile-min.png',
         alt: 'lvjob-mobile',
     }
 ];

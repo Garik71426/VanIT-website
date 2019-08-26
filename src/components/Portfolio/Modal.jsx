@@ -37,7 +37,7 @@ class CustomizedDialogs extends React.Component {
                     open={this.state.open}
                 >
                     <DialogContent dividers onClick={this.handleClose}>
-                        <img src = {imgSrc} alt = {imgAlt}/>
+                        <img src = {imgSrc} alt = {`VanIT Portfolio ${imgAlt}`}/>
                     </DialogContent>
                 </Dialog>
             </>

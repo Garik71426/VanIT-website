@@ -53,7 +53,8 @@ class Portfolio extends Component {
                     {images.slice(mapStart, mapEnd).map(item => {
                         return <PortfolioItem 
                             key = {item.src} 
-                            imgSrc = {item.src} 
+                            imgSrcMin = {item.srcMin}
+                            imgSrcMax = {item.srcMax} 
                             imgAlt = {item.alt}
                         />;
                     })}
